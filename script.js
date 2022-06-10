@@ -1,5 +1,5 @@
 let person = prompt ("Name?")
-var HiName = prompt ("bonjour" + " " + person)
+var HiName =("bonjour" + " " + person)
 <h2> </h2> 
 document.body.innerHTML += '<h1> Coucou! </h1>’
 let birthYear = prompt ("Marquer votre année de naissance")
