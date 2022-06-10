@@ -1,14 +1,4 @@
-function askName (
-let person = prompt ("Name?")
-var HiName = prompt ("bonjour" + " " + person)
-<h2> </h2> 
-document.body.innerHTML += '<h1> Coucou! </h1>’)
-
-function askBirthYear (
-let birthYear = prompt ("Marquer votre année de naissance")
-var a = birthYear
-document.body.innerHTML += '<h3> Vous avez + "Age" </h3>’
-var b = 2022
-alert = (b-a)
-prompt ("Votre âge est" + " " + alert )
-)
+var person = prompt ("Name?")
+var hiName = ("👋 bonjour" + " " + person)
+document.body.innerHTML += '<h2> Coucou! </h2>'
+let birthYear = prompt ("birthday")
